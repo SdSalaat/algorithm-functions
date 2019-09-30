@@ -1,3 +1,6 @@
+// Requirement: from the given array sort the array 
+// Note: array.sort() cannot be used
+
 function bubbleSort(array) {
     let isChanged = false;
 

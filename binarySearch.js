@@ -1,3 +1,6 @@
+// Requirement: from the given array search given key using recursion
+// Note: array.indexOf() is not allowed
+
 function binarySearch(array, key) {
     array = array.sort()
     let middleIndex = Math.floor(array.length / 2),

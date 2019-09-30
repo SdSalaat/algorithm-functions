@@ -1,3 +1,5 @@
+// Requirement: from the given array calculate mean median and modde
+
 function mean(array) {
     var sum = 0;
     array.forEach(number => {

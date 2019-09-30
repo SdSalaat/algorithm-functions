@@ -1,3 +1,5 @@
+// Requirement: from the given index calculate all previous values
+
 function fibonachi(index, memory) {
     memory = memory || [];
     if (memory[index]) return memory[index]
@@ -11,4 +13,4 @@ function fibonachi(index, memory) {
     return memory[index];
 };
 
-console.log(fibonachi(3))
+console.log(fibonachi(6))

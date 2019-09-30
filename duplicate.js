@@ -1,3 +1,5 @@
+// Requirement: from the given array pluck out the duplicates
+
 var input = document.querySelector("#input");
 var container = document.querySelector("#container");
 function duplicateArray(array) {

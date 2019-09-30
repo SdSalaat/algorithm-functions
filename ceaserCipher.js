@@ -1,3 +1,5 @@
+// Requirement: from the given string cipher out message ahead/back number of times which is passed 
+
 function ceaserCipher(string, number) {
     number = number % 26;
     var stringLowerCase = string.toLowerCase().split("");
@@ -20,4 +22,5 @@ function ceaserCipher(string, number) {
     return ciphered
 }
 
-console.log(ceaserCipher("abdul Samad", 2) + " ---> " + ceaserCipher(ceaserCipher("abdul Samad", 2), -2))
+// console.log(ceaserCipher("abdul Samad", 2) + " ---> " + ceaserCipher(ceaserCipher("abdul Samad", 2), -2))
+console.log(ceaserCipher("Abdul Samad", 2))

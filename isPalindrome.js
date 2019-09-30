@@ -1,3 +1,5 @@
+// Requirement: from the given string check weather its same if reversed
+
 function isPalindrome (string) {
     var charactersArray = string.toLowerCase().split("");
     var validCharacters = 'abcdefghijklmnopqrstuvwxyz'.split("");

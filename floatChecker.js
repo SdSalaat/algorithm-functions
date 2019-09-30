@@ -1,3 +1,5 @@
+// Requirement: from the given number check weather its float or not
+
 var input = document.querySelector("#input");
 var container = document.querySelector("#container");
 
