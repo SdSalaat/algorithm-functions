@@ -1,3 +1,5 @@
+// Requirement: from the given array sort array recursively
+
 function mergeSort (array) {
     if(array.length < 2) return array;
     let middleIndex = Math.floor(array.length / 2);

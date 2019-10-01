@@ -1,5 +1,4 @@
-// var input = document.querySelector("#input");
-// var container = document.querySelector("#container");
+// Requirement: from the text nodes check that ransome note is found or not
 
 function ransomNote (textNote, magzineText) {
     var textArray = textNote.toLowerCase().split(" ");

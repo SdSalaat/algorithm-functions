@@ -1,7 +1,6 @@
 // Requirement: from the given array pluck out the duplicates
 
-var input = document.querySelector("#input");
-var container = document.querySelector("#container");
+
 function duplicateArray(array) {
     // variable declaration
     var obj = {};
@@ -20,9 +19,7 @@ function duplicateArray(array) {
         if (obj[el] > 1 && dups.indexOf(el) === -1) dups.push(el)
     });
 
-    // return object
-    input.innerHTML = `Input array was : ${array}`;
-    container.innerHTML = `Duplicates are : ${dups}`;
+    return dups;
 }
 
 
