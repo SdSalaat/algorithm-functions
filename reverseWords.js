@@ -14,4 +14,4 @@ function reverseWords(string) {
 }
 
 // console.log(reverseWords("This is a string of words"));
-console.log(reverseWords("Coding Javascript "));
+console.log(reverseWords("Coding Javascript"));
