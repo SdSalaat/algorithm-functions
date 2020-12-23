@@ -16,7 +16,7 @@ function duplicateArray(array) {
 
         // pushing duplicate to array
         // whom object key values are equal to 2
-        if (obj[el] === 2 ) dups.push(el)
+        if (obj[el] >= 2 ) dups.push(el)
     });
 
     return dups;
